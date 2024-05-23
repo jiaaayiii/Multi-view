@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bathroom="http://example.org/ade20K_bathroom#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#mirror">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00000066.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00001453.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#floor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment>A simple ontology for a library system</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00001065.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#mirror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#contains">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00001241.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#mirror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00000267.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00000190.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#wall">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00001114.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negitive/ADE_val_00001190.jpg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#sink">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#towel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>

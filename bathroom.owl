@@ -1,657 +1,545 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:bathroom="http://example.org/ade20K_bathroom#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:bathroom="http://example.org/ade20K_bathroom#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
 >
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000092.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#knob"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001106.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001091.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001086.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001084.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001937.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000087.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000093.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000937.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#door"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001079.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000103.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000078.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000105.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001105.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#knob"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#mirror"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000104.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#door"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001107.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#door"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000102.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling recessed light"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001085.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000091.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#door"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001095.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000088.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001081.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000251.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001087.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001077.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000096.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000085.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000090.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#door"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000099.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001089.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001090.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001092.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling recessed light"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001218.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000097.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#knob"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#lid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001078.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001108.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000100.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000101.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000089.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001082.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000098.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001251.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000108.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001080.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000095.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000080.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#knob"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001096.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001104.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001094.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000082.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#mirror">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000077.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001100.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001102.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000081.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#contains">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001097.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#mirror"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001943.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000107.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000250.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <rdfs:comment>A simple ontology for a library system</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001099.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000084.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001076.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#cistern">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#floor">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#lid">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000094.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001103.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001083.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#knob"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000079.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#door"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#knob"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001088.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#wall">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000106.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#cabinet">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000086.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001093.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#sink"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000083.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001098.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001250.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#towel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#sink">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#faucet">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000219.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#door">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001101.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#floor"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#wall"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#ceiling">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#towel">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000744.jpg">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bathroom:contains rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#knob">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#toilet">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#bowl">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ade20K_bathroom#ceiling recessed light">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001251.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000250.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001104.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000105.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000100.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000078.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001088.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001101.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000090.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#door"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001100.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001108.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001085.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000077.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000094.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000098.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000101.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001943.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001076.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001083.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#knob"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000081.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000091.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#door"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000083.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001079.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000219.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000080.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#knob"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001084.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001093.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000079.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#door"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#knob"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001082.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001089.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001098.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001086.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001092.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling_recessed_light"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001105.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#knob"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#mirror"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001091.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001106.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001078.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000102.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling_recessed_light"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000089.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000088.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000082.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001095.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000103.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001097.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cistern"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#mirror"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000097.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#knob"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#lid"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000086.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000093.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000251.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000092.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#knob"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001094.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000099.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000104.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#door"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001087.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000085.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00000744.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001102.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000095.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000937.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#door"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001096.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000087.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001107.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#door"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001081.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001077.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000108.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001218.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000106.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001080.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000096.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000084.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001090.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#faucet"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#bowl"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/negative/ADE_val_00001250.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001099.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#sink"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#toilet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00000107.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#cabinet"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001103.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#ceiling"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#wall"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/ade20K_bathroom#/home/jiayi/ADE_bathroom/sub_test/positive/ADE_val_00001937.jpg">
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#floor"/>
+    <rdf:type rdf:resource="http://example.org/ade20K_bathroom#towel"/>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#mirror"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#cistern"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#floor"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#lid"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#wall"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#cabinet"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#sink"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#faucet"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#door"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#ceiling"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#knob"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#toilet"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#ceiling_recessed_light"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#bowl"/>
+  <owl:Class rdf:about="http://example.org/ade20K_bathroom#towel"/>
 </rdf:RDF>
